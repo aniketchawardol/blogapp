@@ -26,7 +26,7 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/blogapp.git
+   git clone https://github.com/aniketchawardol/blogapp.git
    cd blogapp
    ```
 
@@ -96,8 +96,5 @@ Follow these steps to set up the project on your local machine:
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
