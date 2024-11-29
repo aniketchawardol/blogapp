@@ -131,5 +131,8 @@ function PostForm({post}) {
 }
 
 export default PostForm;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e21390ba1d52e3a6b688b42042bb366b4c0e6434
