@@ -58,7 +58,7 @@ function PostForm({post}) {
   const slugTransform = useCallback((value) => {
     if (value && typeof value === 'string') {
       return value
-      .trim
+      .trim()
       .toLowerCase()
       .replace(/^[a-zA-Z\d\s]+/g, '-')                                                
       .replace(/\s/g,'-')
@@ -79,7 +79,7 @@ function PostForm({post}) {
     }
   }, [watch, slugTransform, setValue])
 
-  return 
+  return (
     <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
             <div className="w-2/3 px-2">
                 <Input
@@ -126,7 +126,7 @@ function PostForm({post}) {
                     {post ? "Update" : "Submit"}
                 </Button>
             </div>
-        </form>
+        </form> );
   
 }
 
