@@ -29,7 +29,7 @@ function PostForm({post}) {
       }
 
       const dbPost = await appwriteService.updatePost(post.$id, ...data, 
-        featuredImage: file ? file.$id : undefined);
+        featuredImage = file ? file.$id : undefined)
 
         if(dbPost) {
           navigate('/post/${dbPost.$id}');
@@ -69,7 +69,7 @@ function PostForm({post}) {
   React.useEffect(() => {
     const subscription = watch((value, {name}) => {
       if(name === 'title') {
-        setValue('slug', slugTransform(value.title)
+        setValue('slug', slugTransform(value.title),
       {shouldValidate: true});
       }
     })
@@ -131,8 +131,5 @@ function PostForm({post}) {
 }
 
 export default PostForm;
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e21390ba1d52e3a6b688b42042bb366b4c0e6434
