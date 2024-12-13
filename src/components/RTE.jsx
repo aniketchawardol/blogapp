@@ -1,7 +1,7 @@
 import React from "react";
 import { Editor } from "@tinymce/tinymce-react";
 import { Controller } from "react-hook-form";
-import conf from "../conf/conf"
+import conf from "../conf/conf";
 
 export default function RTE({
   control,
@@ -19,17 +19,12 @@ export default function RTE({
         control={control}
         render={({ field: { onChange } }) => (
           <Editor
-            initialValue={defaultValue}
             apiKey={conf.tinyMCEKey}
+            initialValue={defaultValue}
             init={{
               initialValue: defaultValue,
               height: 500,
               menubar: true,
-              plugins: [
-                "advlist autolink lists link image charmap print preview anchor",
-                "searchreplace visualblocks code fullscreen",
-                "insertdatetime media table paste code help wordcount",
-              ],
               toolbar:
                 "undo redo | formatselect | bold italic backcolor | \
             alignleft aligncenter alignright alignjustify | \
