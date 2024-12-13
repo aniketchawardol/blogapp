@@ -44,6 +44,7 @@ Follow these steps to set up the project on your local machine:
    APPWRITE_ENDPOINT=your_appwrite_endpoint
    APPWRITE_PROJECT_ID=your_appwrite_project_id
    APPWRITE_API_KEY=your_appwrite_api_key
+   VITE_TINYMCE_KEY=your_api_key_for_TINY_MCE
    ```
 
 4. **Install Tailwind CSS:**
