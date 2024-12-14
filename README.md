@@ -97,8 +97,8 @@ Follow these steps to set up the project on your local machine:
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## T
-hankyou <a href="https://github.com/hiteshchoudhary">@hiteshchoudhary</a> for the amazing tutorial
+## Thankyou 
+<a href="https://github.com/hiteshchoudhary">@hiteshchoudhary</a> for the amazing tutorial
 
 
 
