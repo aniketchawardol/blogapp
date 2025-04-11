@@ -33,7 +33,7 @@ Follow these steps to set up the project on your local machine:
 2. **Install dependencies:**
 
    ```bash
-   npm install @reduxjs/toolkit @tinymce/tinymce-react appwrite html-react-parser react react-dom react-hook-form react-redux react-router-dom
+   npm install 
    ```
 
 3. **Set up environment variables:**
